@@ -24,7 +24,7 @@ window.open(
 })
 document.getElementById("ResumeBtn")
 .addEventListener("click", () => {
-window.open("")
+window.open("Resume.pdf")
 
 })
 
