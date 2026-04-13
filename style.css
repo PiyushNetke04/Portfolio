@@ -227,8 +227,6 @@ body {
 }
 
 
-
-
 .about-container {
     background: #020617;
 
@@ -245,8 +243,6 @@ body {
 }
 
 
-/* glow effect */
-
 .about-container:hover {
 
     border-color: #7c3aed;
@@ -256,7 +252,6 @@ body {
 }
 
 
-/* paragraph styling */
 
 .about-container p {
 
@@ -282,8 +277,6 @@ body {
 
 }
 
-
-/* tech tags */
 
 .tech-stack {
 
@@ -372,8 +365,6 @@ body {
 }
 
 
-/* buttons layout */
-
 .contact-buttons {
 
     display: flex;
@@ -387,7 +378,6 @@ body {
 }
 
 
-/* button style */
 
 .contact-btn {
 
@@ -469,3 +459,181 @@ body {
 
 }
 
+
+
+
+
+@media (max-width: 900px){
+
+#hero,
+.skills-section,
+.projects-section{
+
+padding:60px 30px;
+
+}
+
+}
+
+
+
+
+@media (max-width: 768px){
+
+
+.navbar{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+padding:20px;
+
+gap:15px;
+
+}
+
+.navbar ul{
+
+flex-direction:column;
+
+width:100%;
+
+gap:12px;
+
+padding-left:0;
+
+}
+
+
+#hero{
+
+padding:50px 20px;
+
+max-width:100%;
+
+}
+
+.name{
+
+font-size:34px;
+
+}
+
+.about{
+
+font-size:15px;
+
+line-height:1.6;
+
+}
+
+
+
+.buttons{
+
+flex-direction:column;
+
+gap:12px;
+
+width:100%;
+
+}
+
+.buttons button{
+
+width:100%;
+
+text-align:center;
+
+}
+
+#projectBtn{
+
+width:100%;
+
+}
+
+
+.skills-section{
+
+padding:50px 20px;
+
+}
+
+.skills-container{
+
+grid-template-columns:1fr;
+
+}
+
+
+.projects-section{
+
+padding:50px 20px;
+
+}
+
+.projects-container{
+
+grid-template-columns:1fr;
+
+}
+
+
+.about-section{
+
+padding:40px 15px;
+
+}
+
+.about-container{
+
+padding:25px;
+
+}
+
+.gradient-title{
+
+font-size:32px;
+
+}
+
+
+.tech-stack{
+
+gap:8px;
+
+}
+
+.tech-stack span{
+
+font-size:13px;
+
+padding:6px 10px;
+
+}
+
+.contact-container{
+
+padding:25px;
+
+}
+
+.contact-buttons{
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+.contact-btn{
+
+width:100%;
+
+text-align:center;
+
+}
+
+}
