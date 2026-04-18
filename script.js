@@ -12,7 +12,7 @@ document.getElementById("linkedinBtn")
 .addEventListener("click", () => {
 
 window.open(
-"https://linkedin.com/in/yourprofile"
+"https://linkedin.com/in/piyush-netke-a0a9b2403"
 )
 })
 document.getElementById("githubBtn")
@@ -24,7 +24,7 @@ window.open(
 })
 document.getElementById("ResumeBtn")
 .addEventListener("click", () => {
-window.open("Resume.pdf")
+window.open("Piyush-Resume.pdf")
 
 })
 
